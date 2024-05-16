@@ -1,0 +1,107 @@
+:root{
+    --Strongcyan: hsl(172, 67%, 45%);
+    --Verydarkcyan: hsl(183, 100%, 15%);
+    --Darkgrayishcyan: hsl(186, 14%, 43%);
+    --Grayishcyan: hsl(184, 14%, 56%);
+    --Lightgrayishcyan: hsl(185, 41%, 84%);
+    --Verylightgrayishcyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    background-color: var(--Lightgrayishcyan);
+    font-family: 'Space Mono';   
+}
+.container h1{
+    font-size: 14px;
+    color: var(--Verydarkcyan);    
+}
+.form{
+    padding: 15px;
+    width: 50%;
+}
+.form label{
+    font-size: 12px;
+    color: var(--Verydarkcyan); 
+}
+.input__bill, .number__people{
+    height: 2.4em;
+    border: none;
+    background-color: var(--Verylightgrayishcyan);
+    color: var(--Verydarkcyan);
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 10px;   
+}
+.Bill__Container{
+    background-color: var(--White);
+    padding: 22px;
+    border-radius: 10px;
+    width: 40em;
+}
+/* icon input*/
+/* $ */
+.bill__input__container{
+    position: relative;
+}
+.input__bill{
+    padding-left: 30px;
+    background-image: url("/images/icon-dollar.svg");
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: 10px center;   
+}
+/* Perfil */
+.number__input__containe{
+    position: relative;
+}
+.number__people{
+    padding-left: 30px;
+    background-image: url("/images/icon-person.svg");
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: 10px center;   
+}
+/* Resultado container */
+.resultContainer{
+    background-color: var(--Verydarkcyan);
+    border-radius: 10px;
+    padding: 15px;
+}
+.Btn__porcentagem{
+    width: 75px;
+    height: 30px;
+    border: none;
+    background-color: var(--Verydarkcyan);
+    border-radius: 5px;
+    color: var(--White);
+    font-weight: bolder;
+    cursor: pointer;
+}
+.Btn__porcentagem:hover{
+    background-color: var(--Strongcyan);
+    color: var(--Verydarkcyan);
+}
+
+.resultContainer{
+    width: 20em;
+    padding: 22px;
+}
+.paragrafo__TipAmout, .paragrafo__total{
+    color: var(--White);
+    font-size: 14px;
+}
+
+.span__gorjeta,.span__total{
+    color: var(--Strongcyan);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.reset{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--Strongcyan);
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}

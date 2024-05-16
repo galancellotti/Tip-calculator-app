@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+}
+.Bill__Container{
+    display: flex;
+}
+.bill__input__container, .number__input__container{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.btn__group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.resultado{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1em;
+}
+.resultContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.TipAmount, .total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
